@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+}
+
+.banner {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+article h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+article h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+article p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+article h6 {
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.section1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.content1-b {
+    width: 45%;
+}
+
+.content1-b a {
+}
+
+.content1-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content1-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content1-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content1-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.content2-b {
+    width: 45%;
+}
+
+.content2-b a {
+}
+
+.content2-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content2-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content2-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content2-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.section2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.content3-b {
+    width: 45%;
+}
+
+.content3-b a {
+}
+
+.content3-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content3-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content3-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content3-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.content4-b {
+    width: 45%;
+}
+
+.content4-b a {
+}
+
+.content4-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content4-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content4-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content4-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.search {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    padding: 100px 0px;
+}
+
+.form {
+    width: 24%;
+    margin: auto;
+    position: relative;
+}
+
+.form h1 {
+    color: rgb(98, 98, 98);
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.form input {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.form input::placeholder {
+    color: rgb(98, 98, 98);
+    font-family: "Playfair Display", serif;
+}
+
+.form input:focus {
+    outline: 1px;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.icon img {
+}
+
+.section3 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.content5-b {
+    width: 45%;
+}
+
+.content5-b a {
+}
+
+.content5-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content5-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content5-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content5-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.content6-b {
+    width: 45%;
+}
+
+.content6-b a {
+}
+
+.content6-b a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content6-b h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+}
+
+.content6-b h1 {
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.content6-b p {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.button {
+    text-align: center;
+    /* padding: 100px 0px; */
+    padding-bottom: 100px;
+}
+
+.button a button {
+    color: rgb(98, 98, 98);
+    padding: 15px 30px;
+    background-color: transparent;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 25px 0px;
+}
+.footer-content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+}
+.terms ul{
+
+display: flex;
+
+list-style: none;
+}
+.terms ul li{
+
+margin-right: 20px;
+}
+.terms ul li a{
+
+color: #626262;
+
+text-transform: capitalize;
+
+text-decoration: none;
+}
+.social-icon{
+
+}
+.social-icon ul{
+    display: flex;
+
+list-style: none;
+}
+.social-icon ul li{
+    margin-left: 20px;    
+}
+.social-icon ul li a{
+    color: #626262;
+
+    text-transform: capitalize;
+    
+    text-decoration: none; 
+}
+
+
+
